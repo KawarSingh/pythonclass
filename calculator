@@ -1,0 +1,26 @@
+Calcul=int(input("enter 1 to continue and 0 to end"))
+while Calcul==1:
+    choice=int(input("1 for Add,2 for sub,3 for multiply and 4 for divide and 5 SI"))
+    number1 = int(input("enter first number"))
+    Number2 = int(input("enter second code"))
+    if choice==1:
+        Add=number1+Number2
+        print(Add)
+    elif choice==2:
+        Sub=number1-Number2
+        print(Sub)
+    elif choice==3:
+        multiple=number1*Number2
+        print(multiple)
+    elif choice==4:
+        divide=number1/Number2
+        print(divide)
+    elif choice == 5:
+        prin=int(input("enter your p"))
+        rate = int(input("enter your r"))
+        time = int(input("enter your t"))
+        si=prin*rate*time/100
+        print(si)
+    else:
+        print("not allowed")
+    Calcul=int(input("enter your choice"))
