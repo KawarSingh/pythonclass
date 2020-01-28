@@ -1,0 +1,28 @@
+calcu=int(input("enter 1 for continue and till end number"))
+number1=int(input("enter first number:"))
+number2=int(input("enter second number:"))
+choice=input("enter your choice "+" for add, "-" for subs,"*" for multiply,"/" for division, "%" for percentage, 6 for average")
+while choice=='1':
+    print(choice)
+    if choice=='+':
+        add=number1+number2
+        print(add)
+    elif choice=='-':
+        subs=number1-number2
+        print(subs)
+    elif choice=='*':
+        multiply=number1*number2
+        print(multiply)
+    elif choice=='/':
+        division=number1/number1
+        print(division)
+    elif choice=='%':
+        percentage=(number1/number2)*100
+        print(percentage)
+    elif choice=='6':
+        average=number1/number2
+        print(average)
+    else:
+        print("please enter correct number")
+
+
